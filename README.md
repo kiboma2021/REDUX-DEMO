@@ -15,3 +15,6 @@
 - The state of your whole application is stored in an object tree within a single store
 - The only way to change the state is to emit an action, an object describing what happened. (You are not allowed to directly update the state object)
 - To specify how the state tree is transformed by actions, you write pure reducers
+
+# ACTION
+- An action is an object with type property

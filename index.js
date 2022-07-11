@@ -1,1 +1,9 @@
-console.log("Hey, from index file")
+// console.log("Hey, from index file")
+
+const BUY_CAKE = 'BUY_CAKE'
+function buyCake() {
+  return {
+    type: BUY_CAKE,
+    info: 'First redux action'
+  }
+}
