@@ -25,3 +25,11 @@
 
   (previousState,action) => newState
 
+# REDUX STORE
+- We only have one store for the entire application.
+- Responsibilities:
+    - Holds application state
+    - Allows access to state via getState()
+    - Allows state to be updated via dispatch(action)
+    - Registers listeners via subscribe(listener)
+
